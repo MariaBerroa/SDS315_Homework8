@@ -8,7 +8,7 @@ output: html_document
 
 ##### UTEID: mpb2544
 
-##### GitHub: INSERT LINK HERE
+##### GitHub: https://github.com/MariaBerroa/SDS315_Homework8
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
