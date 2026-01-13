@@ -1,14 +1,10 @@
 ---
-title: "SDS313 - Homework 8"
+title: "Linear Regression Modeling"
 author: "Maria Berroa"
-date: "2025-04-13"
 output: html_document
 ---
 ##### Name: Maria Berroa
 
-##### UTEID: mpb2544
-
-##### GitHub: https://github.com/MariaBerroa/SDS315_Homework8
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -138,4 +134,5 @@ boot_milk = do(10000)*lm(log(sales) ~ log(price), data = mosaic::resample(milk))
 confint(boot_milk)
                                                           
 ```
+
 
